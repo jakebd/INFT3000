@@ -1,0 +1,376 @@
+[
+    {
+        "id":"1",
+        "company": "Tesla Inc.",
+        "description": "Tesla Inc (Tesla) is an automotive and energy company. It designs, develops, manufactures, sells, and leases electric vehicles, energy generation, and storage systems.",
+        "revenue":{
+            "2019": "24578000",
+            "2020": "31536000",
+            "2021": "53823000",
+            "2022": "81462000"
+        },
+        "net-income":{
+            "2019": "-862000",
+            "2020": "690000",
+            "2021": "5519000",
+            "2022": "12583000"
+        },
+        "categories": [
+            "automotive",
+            "energy"
+        ],
+        "address": {
+            "street": "1 Tesla Road",
+            "city": "Austin",
+            "state": "TX",
+            "zip-post": "78725",
+            "country": "United States"
+        },
+        "logo":"https://digitalassets.tesla.com/tesla-contents/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_200,q_auto,w_200/c_pad,h_200,w_200/01_0x0-Tesla_T_CoolGrey?pgw=1",
+        "symbol": "TSLA"
+    },
+    {
+        "id":"2",
+        "company": "Amazon.com, Inc.",
+        "description": "Amazon.com, an internet-based business enterprise that is largely focused on providing e-commerce, cloud computing, digital streaming and artificial intelligence (AI) services",
+        "revenue":{
+            "2019": "280522000",
+            "2020": "386064000",
+            "2021": "469822000",
+            "2022": "513983000"
+        },
+        "net-income":{
+            "2019": "11588000",
+            "2020": "21331000",
+            "2021": "33364000",
+            "2022": "-2722000"
+        },
+        "categories": [
+            "e-commerce", 
+            "cloud computing", 
+            "online advertising", 
+            "digital streaming",
+            "artificial intelligence"
+        ],
+        "address": {
+            "street": "410 Terry Avenue North",
+            "city": "Seattle",
+            "state": "WA",
+            "zip-post": "98109",
+            "country": "United States"
+        },
+        "logo":"https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png",
+        "symbol": "AMZN"
+    },
+    {
+        "id":"3",
+        "company": "Palantir Technologies Inc.",
+        "description": "Palantir Technologies, Inc. is a holding company, which engages in the development of data integration and software solutions. It operates through the Commercial and Government segments. The Commercial segment offers services to clients in the private sector.",
+        "revenue":{
+            "2019": "742555",
+            "2020": "1092673",
+            "2021": "1541889",
+            "2022": "1905871"
+        },
+        "net-income":{
+            "2019": "-579646",
+            "2020": "-1166391",
+            "2021": "-520379",
+            "2022": "-373705"
+        },
+        "categories": [
+            "Machine Learning", 
+            "Software", 
+            "Anti-Money Laundering", 
+            "Data Protection",
+            "artificial intelligence"
+        ],
+        "address": {
+            "street": "1200 17th Street",
+            "city": "Denver",
+            "state": "CO",
+            "zip-post": "80202",
+            "country": "United States"
+        },
+        "logo":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.palantir.com%2F&psig=AOvVaw0Z28dAxkNhUqrjiAI0VaLt&ust=1695740610808000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPCn8peExoEDFQAAAAAdAAAAABAE",
+        "symbol": "PLTR"
+    },
+    {
+        "id":"4",
+        "company": "Disney",
+        "description": "The Walt Disney Company, founded in 1923, is a worldwide entertainment company, with movies, cable networks, radio networks, movie production, musical recordings and live stage plays. Disney also operates Walt Disney World in Florida and Disneyland in California, Disney Cruise Line, and international Disney resorts. Disney owns countless licenses and literary properties and publishes books and magazines.",
+        "revenue":{
+            "2019": "69570000",
+            "2020": "65388000",
+            "2021": "67418000",
+            "2022": "82722000"
+        },
+        "net-income":{
+            "2019": "11054000",
+            "2020": "-2864000",
+            "2021": "1995000",
+            "2022": "3145000"
+        },
+        "categories": [
+            "media networks", 
+            "parks and resorts", 
+            "studio entertainment", 
+            "consumer products",
+            "interactive media"
+        ],
+        "address": {
+            "street": "500 South Buena Vista Street",
+            "city": "Burbank",
+            "state": "CA",
+            "zip-post": "91521",
+            "country": "United States"
+        },
+        "logo":"data:image/png;base64,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",
+        "symbol": "DIS"
+    },
+    {
+        "id":"5",
+        "company": "Shopify Inc.",
+        "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. Our expertise and leadership in commerce comes from the experiences of millions of merchants on our platform.",
+        "revenue":{
+            "2019": "1578173",
+            "2020": "2929491",
+            "2021": "4611856",
+            "2022": "5599864"
+        },
+        "net-income":{
+            "2019": "-124842",
+            "2020": "319509",
+            "2021": "2914659",
+            "2022": "-3460418"
+        },
+        "categories": [
+            "E-commerce"
+        ],
+        "address": {
+            "street": "151 O'Connor Street",
+            "city": "Ottawa",
+            "state": "ON",
+            "zip-post": "K2P 2L8",
+            "country": "Canada"
+        },
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2F1000logos.net%2Fshopify-logo%2F&psig=AOvVaw0zhJUUj-KURquy5Aub5nJt&ust=1695742481017000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjIuJaLxoEDFQAAAAAdAAAAABAJ",
+        "symbol": "SHOP"
+    },
+    {
+        "id":"6",
+        "company": "Meta Platforms, Inc.",
+        "description": "Through its major products Facebook, Instagram, Oculus, Messenger, and WhatsApp, the company connects people with their friends, and families, and co-workers across the world, and helps them discover new products and services from local and global businesses.",
+        "revenue":{
+            "2019": "70697000",
+            "2020": "85965000",
+            "2021": "117929000",
+            "2022": "116609000"
+        },
+        "net-income":{
+            "2019": "18485000",
+            "2020": "29146000",
+            "2021": "39370000",
+            "2022": "23200000"
+        },
+        "categories": [
+            "Social media",
+            "Social network advertising",
+            "Consumer electronics"
+        ],
+        "address": {
+            "street": "1601 Willow Road",
+            "city": "Menlo Park",
+            "state": "CA",
+            "zip-post": "94025",
+            "country": "United States"
+        },
+        "logo": "https://blog.logomyway.com/wp-content/uploads/2021/11/meta-logo.png",
+        "symbol": "META"
+    },
+    {
+        "id":"7",
+        "company": "Ford",
+        "description": "Ford Motor Co. develops, manufactures, sells and services vehicles and parts worldwide. Ford sells cars and trucks primarily under the Ford and Lincoln brands. It sells to consumers (through retail dealers) and to rental car companies, leasing companies, and governments. Ford also provides maintenance and repair services. Ford also offers financing to vehicle purchasers. Ford was founded in 1903 and is based in Dearborn, Michigan.",
+        "revenue":{
+            "2019": "155900000",
+            "2020": "127144000",
+            "2021": "136341000",
+            "2022": "158057000"
+        },
+        "net-income":{
+            "2019": "47000",
+            "2020": "-1279000",
+            "2021": "17937000",
+            "2022": "-1981000"
+        },
+        "categories": [
+            "automotive"
+        ],
+        "address": {
+            "street": "One American Road",
+            "city": "Dearborn",
+            "state": "MI",
+            "zip-post": "48126",
+            "country": "United States"
+        },
+        "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo.png",
+        "symbol": "F"
+    },
+    {
+        "id":"8",
+        "company": "IBM",
+        "description": "IBM is an international IT company. IBM offers infrastructure and technology services, software for business integration and information management, data warehousing, identity management software, data security, Lotus software for collaboration, messaging and social networking, business intelligence software, servers, and storage systems. IBM was founded in 1910 and is based in Armonk, New York.",
+        "revenue":{
+            "2019": "77147000",
+            "2020": "73620000",
+            "2021": "57351000",
+            "2022": "60530000"
+        },
+        "net-income":{
+            "2019": "9431000",
+            "2020": "5590000",
+            "2021": "5742000",
+            "2022": "1639000"
+        },
+        "categories": [
+            "IT services",
+            "Cloud Computing",
+            "Artificial Intelligence",
+            "Research and Development"
+        ],
+        "address": {
+            "street": "One New Orchard Road",
+            "city": "Armonk",
+            "state": "NY",
+            "zip-post": "10504",
+            "country": "United States"
+        },
+        "logo": "https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg",
+        "symbol": "IBM"
+    },
+    {
+        "id":"9",
+        "company": "Microsoft",
+        "description": "Microsoft develops, manufactures, licenses, and supports a range of software products and services for various computing devices worldwide. Products include Windows OS, Windows Live and Internet Explorer. Microsoft also provides training and tech support, online products such as Bing and MSN portals, and software including Microsoft Office, Microsoft SharePoint, Xbox 360, PC software games, online games, and Zune digital music. Microsoft was founded in 1975 and is headquartered in Redmond, Washington.",
+        "revenue":{
+            "2019": "143015000",
+            "2020": "168088000",
+            "2021": "198270000",
+            "2022": "211915000"
+        },
+        "net-income":{
+            "2019": "44281000",
+            "2020": "61271000",
+            "2021": "72738000",
+            "2022": "72361000"
+        },
+        "categories": [
+            "IT services",
+            "Cloud Computing",
+            "Artificial Intelligence",
+            "Research and Development",
+            "Consumer electronics",
+            "commercial software"
+        ],
+        "address": {
+            "street": "One Microsoft Way",
+            "city": "Redmond",
+            "state": "WA",
+            "zip-post": "98052",
+            "country": "United States"
+        },
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
+        "symbol": "MSFT"
+    },
+    {
+        "id":"10",
+        "company": "Starbucks",
+        "description": "Starbucks Corp. provides specialty coffee and tea beverages, packaged and ground coffee beans, single-serve products, juices and food offerings worldwide. Starbucks sells licensed products through grocery stores and other food service outlets as well as running company stores that sell coffees, pastries, breakfast sandwiches and lunch items. Starbucks sells products under the brand names Starbucks, Teavana, Tazo, Seattle\u2019s Best, La Blange and Verismo. Starbucks was founded in 1985 and is based in Seattle, Washington.",
+        "revenue":{
+            "2019": "26508600",
+            "2020": "23518000",
+            "2021": "29060600",
+            "2022": "32250300"
+        },
+        "net-income":{
+            "2019": "3599200",
+            "2020": "928300",
+            "2021": "4199300",
+            "2022": "3281600"
+        },
+        "categories": [
+            "cafe",
+            "roastery"
+        ],
+        "address": {
+            "street": "2401 Utah Avenue South",
+            "city": "Seattle",
+            "state": "WA",
+            "zip-post": "98134",
+            "country": "United States"
+        },
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/800px-Starbucks_Corporation_Logo_2011.svg.png",
+        "symbol": "SBUX"
+    },
+    {   "id":"11",
+        "company": "Texas Instruments",
+        "description": "Texas Instruments designs and sells semiconductors to electronics designers and manufacturers worldwide. The company has four segments: Analog, Embedded Processing, Wireless and Other. The Other segment provides handheld graphing and scientific calculators and licenses technologies to other electronic companies. The company was founded in 1938 and is headquartered in Dallas, Texas.",
+        "revenue":{
+            "2019": "14383000",
+            "2020": "14461000",
+            "2021": "18344000",
+            "2022": "20028000"
+        },
+        "net-income":{
+            "2019": "5017000",
+            "2020": "5595000",
+            "2021": "7769000",
+            "2022": "8749000"
+        },
+        "categories": [
+            "design",
+            "manufactures",
+            "semiconductors"
+        ],
+        "address": {
+            "street": "12500 TI Boulevard",
+            "city": "Dallas",
+            "state": "TX",
+            "zip-post": "75243",
+            "country": "United States"
+        },
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/TexasInstruments-Logo.svg/1280px-TexasInstruments-Logo.svg.png",
+        "symbol": "TXN"
+    },
+    {
+        "id":"12",
+        "company": "Walmart",
+        "description": "Walmart operates retail stores, warehouse clubs, online stores and small markets worldwide. Walmart stores sell a huge variety of items, from food and clothing to electronics, hardware, appliances, automotive accessories and pet supplies. Some stores include banks, restaurants and gas stations. Walmart was founded in 1945 and is headquartered in Bentonville, Arkansas. ",
+        "revenue":{
+            "2019": "523964000",
+            "2020": "559151000",
+            "2021": "572754000",
+            "2022": "611289000"
+        },
+        "net-income":{
+            "2019": "14881000",
+            "2020": "13510000",
+            "2021": "13673000",
+            "2022": "11680000"
+        },
+        "categories": [
+            "retail",
+            "wholesale"
+        ],
+        "address": {
+            "street": "702 South West 8th Street",
+            "city": "Bentonville",
+            "state": "AR",
+            "zip-post": "72716",
+            "country": "United States"
+        },
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/2560px-Walmart_logo.svg.png",
+        "symbol": "WMT"
+    }
+]
