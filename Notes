@@ -1,0 +1,10 @@
+First I did a npm init to generate some starter files.
+Then npm install to get dependancies
+
+Prog3017 Oct 12th video sets up folder structure. 
+Middleware: Morgan - Log api requests to console.
+Package: Nodemon
+
+First Step: Use express-generator to build the structure of an app
+    -In terminal Type: express --git
+    -The --git creates a .gitignore.
