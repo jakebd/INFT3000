@@ -8,3 +8,21 @@ Package: Nodemon
 First Step: Use express-generator to build the structure of an app
     -In terminal Type: express --git
     -The --git creates a .gitignore.
+
+Next I created an API folder inside my routes and I moved the user.js into there,
+    -then i created a new index.js inside there. I coppied over that file from myFullStackApp
+    -and then i pointed the router to the right place from app.js
+
+working on Mongoose now
+    -npm i mongoose
+
+need to now require mongoose in our application.
+added connection string in the app.js.(mongodb://localhost:27017/stock_market)
+***We Will need to change this later***
+
+Create a models folder in your root.
+This is where naming matters, Your model should be a singular of the collection
+    -example: collection is stocks, model is stock.js
+
+
+
