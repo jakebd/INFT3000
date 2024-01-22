@@ -8,8 +8,11 @@ var logger = require('morgan');
 var mongoose = require('mongoose');
 var dotenv = require('dotenv');
 
+//Load in the env variables from the .env
+dotenv.config();
+
 //establish connection to the database(mongoDB)
-mongoose.connect("mongodb://localhost:27017/stock_market");
+mongoose.connect(process.env.MONGO_DB);
 
 //defining our routers
 var indexRouter = require('./routes/index');
