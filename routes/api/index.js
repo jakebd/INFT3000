@@ -13,7 +13,8 @@ router.use('/users', usersRouter); // /api/users
 //router.use(demoMiddleware);
 
 router.get('/', (req, res) => { //api
-    res.send('Welcome to the API');
+    // res.send('Welcome to the API');
+    
 })
 
 module.exports = router;

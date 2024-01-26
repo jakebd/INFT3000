@@ -18,11 +18,37 @@ working on Mongoose now
 
 need to now require mongoose in our application.
 added connection string in the app.js.(mongodb://localhost:27017/stock_market)
-***We Will need to change this later***
+***We Will need to change this later, SQL DB***
 
 Create a models folder in your root.
 This is where naming matters, Your model should be a singular of the collection
     -example: collection is stocks, model is stock.js
 
+-Build out the models
+-Build out the API end points for SQL
+-created a middleware folder
 
+-Coppied over a starter client app from a vite react build.
+    -npm install
+    -npm run dev to see the template
 
+-right now both the back end and front end are started seprately 
+-we are going to use the npm package called concurrently.
+    -this will allow us to start both at the same time.
+
+***Concurrently***
+-npm i concurrently  --save-dev
+    -this will save it as a dev dependency.
+    -this creates a second category of dependencies in the package.json
+
+-changed the package.json.
+    -added a script for clarity:
+        "api": "nodemon ./bin/www",
+    -added a script:     
+        "dev": "concurrently \"npm run api\" \"cd client && npm run dev\" --kill-others"
+    -This will now allow us to run the api and the react app in same command
+    -
+
+ November 2nd, 2023 - tic tac toe
+ November 6th, 2023 - fun with forms app
+ November 14th, 2023 - front end (react template)
